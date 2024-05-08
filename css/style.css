@@ -77,6 +77,9 @@ p{
 
 }
 
+.clr{
+    clear: both;
+}
 /*Nav bar*/
 
 #nav-bar{
@@ -166,5 +169,44 @@ p{
 #home-info .info-content p{
     padding-bottom: 30px;
 
+}
+
+/* Feature section*/
+
+.box{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-left: 10px;
+}
+
+.text{
+    margin-top: 5px;
+    max-height: 500px;
+  margin-top: 0px;
+  padding-top: 5px;
+   
+}
+
+/* About info*/
+
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+
+
+/* footer*/
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
 
